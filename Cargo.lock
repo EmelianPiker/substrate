@@ -3878,6 +3878,7 @@ dependencies = [
  "sp-inherents",
  "sp-io",
  "sp-runtime",
+ "sp-session",
  "sp-staking",
  "sp-std",
  "sp-timestamp",
@@ -7312,6 +7313,7 @@ dependencies = [
  "sp-consensus",
  "sp-consensus-slots",
  "sp-consensus-vrf",
+ "sp-core",
  "sp-inherents",
  "sp-runtime",
  "sp-std",
@@ -7334,6 +7336,7 @@ name = "sp-consensus-slots"
 version = "0.8.0-rc2"
 dependencies = [
  "parity-scale-codec",
+ "sp-runtime",
 ]
 
 [[package]]
